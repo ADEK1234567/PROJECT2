@@ -6,3 +6,29 @@ OUTPUT
 Hash type MD5
 
 INPUT
+hashcat -a 6 -m 0 7f9a6871b86f40c330132c4fc42cda59 rockyou.txt --show
+OUTPUT
+7f9a6871b86f40c330132c4fc42cda59:tinkerbell
+
+Hash type MD5
+
+INPUT 
+hashcat -a 6 -m 0 6104df369888589d6dbea304b59a32d4 rockyou.txt --show 
+OUTPUT
+6104df369888589d6dbea304b59a32d4:blink182
+
+Hash type MD5
+
+INPUT 
+hashcat -a 6 -m 0 276f8db0b86edaa7fc805516c852c889 rockyou.txt --show 
+OUTPUT
+276f8db0b86edaa7fc805516c852c889:basebal
+
+Hash type MD5
+
+INPUT 
+hashcat -a 6 -m 0 04dac8afe0ca501587bad66f6b5ce5ad rockyou.txt --show
+OUTPUT
+04dac8afe0ca501587bad66f6b5ce5ad:hellokitty
+
+Hash type MD5
